@@ -22,9 +22,11 @@ def display_work():
 def display_blog():
   return render_template('blog.html')
 
+
 @app.route("/about.html")
 def display_about():
   return render_template('about.html')
+
 
 @app.route("/contact.html")
 def display_contact():
